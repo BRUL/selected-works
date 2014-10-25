@@ -1,34 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
 
-* {
-	font-family: 'Fanwood Text', serif;
+body {
+	color:#000;
+	font-family:"Fanwood Text", "Times New Roman", serif;
+	font-weight:400;
+	-webkit-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased;
 }
 
 .project-thumb {
     cursor: pointer;
+	color: #777;
 }
-
-.current-project {
-    /*min-height: 600px;*/
+.project-thumb:hover {
+	color: #000;
 }
-
-.carousel {
-    /*min-height: 500px;*/
+.project-thumb h2 {
+	font-size: 1.5em;
 }
-
-.carousel-control, .carousel-control:hover,
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-}
-
-.carousel-control.left,
-.carousel-control.right {
-    cursor: pointer;
-}
-
-.carousel-control.left .glyphicon,
-.carousel-control.right .glyphicon {
-    display: none;
+.project-thumb p {
+	margin-bottom:1.5em;
+	font-size:1em;
+	line-height:1.5em
 }
 
 .header {

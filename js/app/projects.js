@@ -59,5 +59,21 @@ angular.module('sw')
           src: 'images/narrative-residence/BS-plans.jpg',
         }
       ]
+    },
+    {
+      title: 'Lavievert',
+      intro: 'Lavievert is een bureau voor landschapsarchitectuur. Hun hoofdprincipe, de dialoog tussen interieur en exterieur, komt in hun hoofdkantoor op verschillende vlakken terug.',
+      description: 'Lavievert is een bureau voor landschapsarchitectuur. Hun hoofdprincipe, de dialoog tussen interieur en exterieur, komt in hun hoofdkantoor op verschillende vlakken terug. Gelegen aan een wandelpark, vormen de 75 meter trappen, hellingen en passerelles een aangename interieure promenade. Vanaf de voordeur kijk je de massieve bergflank op. Bovenaan laat de voorgevel je door zijn openingen de bomen zien. Het hele gebouw wordt verdeeld in enerzijds de functionele berg en anderzijds een sterke buitenatmosfeer, ononderbroken door de gevel.',
+      pictures: [
+        {
+          src: 'images/lavievert/BS-render.png',
+        },
+        {
+          src: 'images/lavievert/BS-section.jpg',
+        },
+        {
+          src: 'images/lavievert/BS-plans.jpg',
+        }
+      ]
     }
   ]);

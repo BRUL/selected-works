@@ -23,33 +23,31 @@
 
 <div class="container" data-ng-controller="MainCtrl">
   <div class="header">
-    <h3 class="text-muted">Jonathan Dequeker</h3>
+    <h1 class="text-muted">Jonathan Dequeker</h3>
 	<p class="lead">
       I am a Flemish (Belgian) student <strong>Interior Architecture</strong>. <br>Before studying I enjoyed creating Art for four years.
       Along the way I taught myself the arts of <em>bookbinding</em>, <em>programming</em> and <em>woodworking</em>.
     </p>
-	</div>
+  </div>
 
   <div class="row marketing">
 
   
     <div class="col-lg-6 project-thumb" ng-repeat="project in projects" ng-show="$even" data-ng-click="viewProject(project)">
-      <h4 ng-bind="project.title"></h4>
+      <h2 ng-bind="project.title"></h4>
       <p ng-bind="project.intro"></p>
     </div>
 
     <div class="col-lg-6 project-thumb" ng-repeat="project in projects" ng-show="$odd" data-ng-click="viewProject(project)">
-      <h4 ng-bind="project.title"></h4>
+      <h2 ng-bind="project.title"></h4>
       <p ng-bind="project.intro"></p>
     </div>
   </div>
 
-  <hr>
-
   <div class="current-project">
 	<div class="row">
 	  <div class="col-lg-6">
-		<h4 ng-bind="currentProject.title"></h4>
+		<h2 ng-bind="currentProject.title"></h4>
 	  </div>
 	  <div class="col-lg-6">
 		<p ng-bind="currentProject.description"></p>
@@ -60,10 +58,6 @@
         <img ng-src="{{picture.src}}">
 	  </div>
     </div>
-  </div>
-
-  <div class="footer">
-    <p>&copy; 2014 <a href="mailto:jonathan.dequeker@gmail.com">Jonathan Dequeker</a></p>
   </div>
 
 </div> <!-- /container -->
