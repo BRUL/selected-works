@@ -1,18 +1,38 @@
 angular.module('sw')
   .constant('projects', [
     {
-      title: 'My First Project',
-      intro: 'Intro',
-      description: 'Learning how to sculpture',
+      title: 'Installation',
+      intro: 'Fractures of two very different settings have been put together. They don\'t fit, and they never will. We tried everything; turned around, stacked, glued, welded. Fragments will never be their original.',
+      description: 'On a shabby wooden shelf bolted to the brick wall, a number of old jars and bottles were found, forgotten by their owner. Every bottle had a story to tell, every one was unique. In trying to replicate the bottles in their entireity, I failed. The castings broke, only the intrinsic details and patina would remain.',
       pictures: [
         {
-          src: 'images/sculpturing/day-1.jpg',
-          text: 'Picture 1 text'
+          src: 'images/installation/overview.jpg',
+          text: ''
         },
         {
-          src: 'images/sculpturing/kitten.jpg',
-          text: 'Picture 2 text'
-        }
+          src: 'images/installation/ice.jpg',
+          text: ''
+        },
+        {
+          src: 'images/installation/bottle-1.jpg',
+          text: ''
+        },
+        {
+          src: 'images/installation/bottle-2.jpg',
+          text: ''
+        },
+        {
+          src: 'images/installation/bottle-3.jpg',
+          text: ''
+        },
+        {
+          src: 'images/installation/bottle-4.jpg',
+          text: ''
+        },
+        {
+          src: 'images/installation/mirror-images.jpg',
+          text: ''
+        },
       ]
     },
     {
