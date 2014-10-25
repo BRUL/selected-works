@@ -1,13 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
+
+* {
+	font-family: 'Fanwood Text', serif;
+}
+
 .project-thumb {
     cursor: pointer;
 }
 
 .current-project {
-    min-height: 600px;
+    /*min-height: 600px;*/
 }
 
 .carousel {
-    min-height: 500px;
+    /*min-height: 500px;*/
 }
 
 .carousel-control, .carousel-control:hover,
@@ -23,4 +29,17 @@
 .carousel-control.left .glyphicon,
 .carousel-control.right .glyphicon {
     display: none;
+}
+
+.header {
+	border: none;
+}
+.header h3 {
+	padding-bottom: 0;
+}
+
+.current-project p {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }

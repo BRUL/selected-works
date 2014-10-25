@@ -12,5 +12,5 @@ angular.module('sw', ['ui.bootstrap'])
     };
 
     // slideshow
-    $scope.interval = 5000;
+    $scope.interval = 50000000;
   }]);

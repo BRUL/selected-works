@@ -48,15 +48,14 @@
   <hr>
 
   <div class="row current-project">
-    <div class="col-lg-12">
-      <h4 ng-bind="currentProject.title"></h4>
-      <p ng-bind="currentProject.description"></p>
-
+	<div class="col-lg-12">
       <carousel interval="interval" ng-show="currentProject.pictures">
         <slide ng-repeat="picture in currentProject.pictures">
           <img ng-src="{{picture.src}}" style="margin:auto;">
         </slide>
       </carousel>
+	  <h4 ng-bind="currentProject.title"></h4>
+      <p ng-bind="currentProject.description"></p>
     </div>
   </div>
 

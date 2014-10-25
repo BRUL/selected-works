@@ -7,61 +7,56 @@ angular.module('sw')
       pictures: [
         {
           src: 'images/installation/overview.jpg',
-          text: ''
         },
         {
           src: 'images/installation/ice.jpg',
-          text: ''
         },
         {
           src: 'images/installation/bottle-1.jpg',
-          text: ''
         },
         {
           src: 'images/installation/bottle-2.jpg',
-          text: ''
         },
         {
           src: 'images/installation/bottle-3.jpg',
-          text: ''
         },
         {
           src: 'images/installation/bottle-4.jpg',
-          text: ''
         },
         {
           src: 'images/installation/mirror-images.jpg',
-          text: ''
         },
       ]
     },
     {
-      title: 'My Second Project',
-      intro: 'Intro',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt ultricies ligula, eget porta felis vestibulum quis. Nullam in nulla ipsum. Vestibulum tincidunt orci eu metus tristique, id laoreet enim pretium. Donec porttitor dolor ut felis lobortis euismod. Pellentesque suscipit ipsum eu suscipit ornare. Suspendisse tortor orci, tempus sed gravida vel, luctus non purus. Aliquam dapibus sagittis enim vel aliquam. Vivamus pharetra, magna et ullamcorper fringilla, metus nunc laoreet odio, vitae sagittis nunc justo a odio. Nunc dapibus id mi ut rhoncus. In efficitur mauris et facilisis tempus. Sed placerat molestie tempor. Donec non ligula in lorem volutpat elementum. Mauris commodo faucibus faucibus. Proin vehicula lectus mi, id tristique nisl imperdiet id.',
+      title: 'Art Pavillion',
+      intro: 'Je zult in de plannen en doorsnede twee volumes tegenkomen en een derde rasterelement op de achtergrond.',
+      description: 'Je zult in de plannen en doorsnede twee volumes tegenkomen en een derde rasterelement op de achtergrond. Lees deze als gereedschappen met een functie. Het eerste, meest publieke element is het raster in de vorm van een U. Daar aan opgehangen zijn verschillende panelen met het werk *Genital Wallpaper* op gedrukt. Dit provocerende werk is het uithangbord en de doornenstruik van het plein; het vraagt de *passant* aandachtig te zijn voor zijn doornen maar biedt in dezelfde zin ook zijn zachte schaduw aan. In die schaduw treffen we het tweede element van dit apparatus aan: een roestige bak, manshoog. We ontdekken snel dat er een wand ontbreekt. De opening leidt ons recht de diepte in. Dit tweede element fungeert als koppelstuk tussen de straat en waar we aan het einde van de trap in uitkomen: een prefab kelderelement. Brutaal in zijn saaiheid houdt het voor ons het tweede kunstwerk op: *Abstraktes Bild (Courbet)*. Ophangen van kunstwerken is echter slechts een fractie van dit derde element zijn functie. Het houdt ook, door zijn ongemakkelijke relatie met de roestige bak waar we inkelderden, een geheim voor ons. Dat geheim wordt ons op het moment dat we *Abstraktes Bild* achter ons gelaten hebben onthult: *Barre de Bois rond*. Onduidelijk van boodschap, zeer duidelijk op afstand gehouden, onduidelijk achter de stalen treden, duidelijk een geheim. We gingen vanuithangbord over ontdekkingstocht naar geheim. Dat zijn de stadia waarin LUCA\'s meest opvallende en meest fragiel werken zich kunnen plaatsen. Dat zijn de manieren waarop je als buitenstaander dit werktuig kunt hanteren.',
       pictures: [
         {
-          src: 'images/sculpturing/day-1.jpg',
-          text: 'Picture 1 text'
+          src: 'images/art-pavillion/MM-exterior.jpg',
         },
         {
-          src: 'images/sculpturing/kitten.jpg',
-          text: 'Picture 2 text'
-        }
+          src: 'images/art-pavillion/MM-section.jpg',
+		},
+        {
+          src: 'images/art-pavillion/MM-plan.jpg',
+		}
       ]
     },
     {
-      title: 'My Third Project',
-      intro: 'Intro',
-      description: 'Sculpturing again, cause that\'s how I roll...',
+      title: 'the Narrative Residence',
+      intro: 'Storytelling is as old as mankind itself. Yet when we talk about it, we can only describe. That is why today I won\'t talk about the hidden stories that shaped this new environment, but rather read them to you, with you, so that in their purest form they might bring the message most vividly.',
+      description: '"Tell me what you see." It\'s Maaike\'s voice, barely audible through the music. Psychedelic vibes repeat themself and I repeat them in my head and the curtains reapeats by waving and the floor repeats by shaking and the smokefilled room vibrates. I let my eyes wander, observing my surroundings. The high armchair blocks my sight left and right. Right before me is a glass hourglass-shaped object. Above it, a spotlight. One of those industrial things we use in theaters. It\'s the only visible source of light, and its shadows are hard and fragmented. Lightly swaying on a thin steel cable, anchored in the ceiling. A painted ceiling leads the way for my eyes to the single visible wall. High vertical schelves display translucent fluids. Slowly the black curtain that shut us off from the outer world turns smokey gray. William, our sound technician, lits a second cigar. Maaike is talking to him but I can\'t understand. The unusual object, shaped like an hourglass, seems to fill the room with psychedelic tones. From the ground up, everything trembles, shakes, vibrates on the music. I am told the sound system is integrated in the void under our feet. Along with the anti-rhythm I plunge backwards into the soft black leather that holds the body I left behind.',
       pictures: [
         {
-          src: 'images/sculpturing/day-1.jpg',
-          text: 'Picture 1 text'
+          src: 'images/narrative-residence/BS-lobby.png',
         },
         {
-          src: 'images/sculpturing/kitten.jpg',
-          text: 'Picture 2 text'
+          src: 'images/narrative-residence/BS-lounge.jpg',
+        },
+        {
+          src: 'images/narrative-residence/BS-plans.jpg',
         }
       ]
     }
