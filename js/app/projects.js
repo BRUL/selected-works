@@ -116,5 +116,55 @@ angular.module('sw')
           src: 'images/object/object-wood.jpg',
         }
       ]
+    },
+    {
+      title: 'Reality',
+      intro: '',
+      description: '',
+      pictures: [
+		{
+          src: 'images/reality/T1-photo.jpg',
+        },
+        {
+          src: 'images/reality/T1-plans.png',
+        },
+        {
+          src: 'images/reality/C1-photo.jpg',
+        },
+        {
+          src: 'images/reality/C1-plans.jpg',
+        }
+      ]
+    },
+    {
+      title: 'Public-Private',
+      intro: 'In search of a graphical language for the architectural public-private Thing.',
+      description: '',
+      pictures: [
+		{
+          src: 'images/public-private/facade-virus.jpg',
+        },
+        {
+          src: 'images/public-private/research-1.jpg',
+        },
+        {
+          src: 'images/public-private/research-2.jpg',
+        },
+        {
+          src: 'images/public-private/research-3.jpg',
+        },
+        {
+          src: 'images/public-private/research-4.jpg',
+        },
+        {
+          src: 'images/public-private/research-5.jpg',
+        },
+        {
+          src: 'images/public-private/research-6.jpg',
+        },
+        {
+          src: 'images/public-private/research-7.jpg',
+        }
+      ]
     }
   ]);

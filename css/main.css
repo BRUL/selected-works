@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
 
 body {
-	color:#000;
 	font-family:"Fanwood Text", "Times New Roman", serif;
-	font-weight:400;
-	-webkit-text-size-adjust:100%;
-	-webkit-font-smoothing:antialiased;
 }
 
 .project-thumb {
