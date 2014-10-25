@@ -38,8 +38,7 @@
 	padding-bottom: 0;
 }
 
-.current-project p {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+.current-project img {
+	width: 100%;
+	margin: 2em 0;
 }

@@ -24,16 +24,15 @@
 <div class="container" data-ng-controller="MainCtrl">
   <div class="header">
     <h3 class="text-muted">Jonathan Dequeker</h3>
-  </div>
-
-  <div class="jumbotron">
-    <p class="lead">
+	<p class="lead">
       I am a Flemish (Belgian) student <strong>Interior Architecture</strong>. <br>Before studying I enjoyed creating Art for four years.
       Along the way I taught myself the arts of <em>bookbinding</em>, <em>programming</em> and <em>woodworking</em>.
     </p>
-  </div>
+	</div>
 
   <div class="row marketing">
+
+  
     <div class="col-lg-6 project-thumb" ng-repeat="project in projects" ng-show="$even" data-ng-click="viewProject(project)">
       <h4 ng-bind="project.title"></h4>
       <p ng-bind="project.intro"></p>
@@ -47,15 +46,19 @@
 
   <hr>
 
-  <div class="row current-project">
-	<div class="col-lg-12">
-      <carousel interval="interval" ng-show="currentProject.pictures">
-        <slide ng-repeat="picture in currentProject.pictures">
-          <img ng-src="{{picture.src}}" style="margin:auto;">
-        </slide>
-      </carousel>
-	  <h4 ng-bind="currentProject.title"></h4>
-      <p ng-bind="currentProject.description"></p>
+  <div class="current-project">
+	<div class="row">
+	  <div class="col-lg-6">
+		<h4 ng-bind="currentProject.title"></h4>
+	  </div>
+	  <div class="col-lg-6">
+		<p ng-bind="currentProject.description"></p>
+	  </div>
+	</div>
+    <div class="row" ng-show="currentProject.pictures">
+      <div class="col-lg-12" ng-repeat="picture in currentProject.pictures">
+        <img ng-src="{{picture.src}}">
+	  </div>
     </div>
   </div>
 
