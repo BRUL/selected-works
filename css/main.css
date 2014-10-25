@@ -1,0 +1,26 @@
+.project-thumb {
+    cursor: pointer;
+}
+
+.current-project {
+    min-height: 600px;
+}
+
+.carousel {
+    min-height: 500px;
+}
+
+.carousel-control, .carousel-control:hover,
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    cursor: pointer;
+}
+
+.carousel-control.left .glyphicon,
+.carousel-control.right .glyphicon {
+    display: none;
+}
