@@ -5,12 +5,10 @@ angular.module('sw', ['ui.bootstrap'])
     $scope.viewProject = function (project) {
       $scope.currentProject = project;
 
-      var easeDurationInMiliseconds = 750;
+      var easeDurationInMiliseconds = 0;
       $('html, body').animate({
         scrollTop: angular.element('.current-project').offset().top
       }, easeDurationInMiliseconds);
     };
 
-    // slideshow
-    $scope.interval = 50000000;
   }]);
