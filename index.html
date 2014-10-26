@@ -33,10 +33,10 @@
   <div class="current-project">
 	<div class="row">
 	  <div class="col-lg-4">
-		<h2 ng-bind="currentProject.title"></h2>
+		<h2 ng-bind-html="currentProject.title"></h2>
 	  </div>
 	  <div class="col-lg-8">
-		<p ng-bind="currentProject.description"></p>
+		<p ng-bind-html="currentProject.description"></p>
 	  </div>
 	</div>
     <div class="row" ng-show="currentProject.pictures">
@@ -48,13 +48,13 @@
   
   <div class="row marketing">
     <div class="col-lg-6 project-thumb" ng-repeat="project in projects" ng-show="$even" data-ng-click="viewProject(project)">
-      <h2 ng-bind="project.title"></h2>
-      <p ng-bind="project.intro"></p>
+      <h2 ng-bind-html="project.title"></h2>
+      <p ng-bind-html="project.intro"></p>
     </div>
 
     <div class="col-lg-6 project-thumb" ng-repeat="project in projects" ng-show="$odd" data-ng-click="viewProject(project)">
-      <h2 ng-bind="project.title"></h2>
-      <p ng-bind="project.intro"></p>
+      <h2 ng-bind-html="project.title"></h2>
+      <p ng-bind-html="project.intro"></p>
     </div>
   </div>
 
