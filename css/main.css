@@ -36,7 +36,11 @@ body {
 .header {
 	border: none;
 }
-.header h3 {
+.header h1 a {
+	color: #777;
+	text-decoration: none;
+}
+.header h1 {
 	padding-bottom: 0;
 }
 
@@ -60,3 +64,11 @@ body {
 	width: 100%;
 	margin: 2em 0;
 }
+
+.footer {
+	text-align: center;
+	font-size: 1em;
+	color: #777;
+	border: none;
+}
+	
