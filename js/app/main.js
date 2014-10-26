@@ -1,4 +1,4 @@
-angular.module('sw', ['ui.bootstrap'])
+angular.module('sw', ['ui.bootstrap', 'ngSanitize'])
   .controller('MainCtrl', ['$scope', 'projects', '$anchorScroll', '$location', function ($scope, projects, $anchorScroll, $location) {
     $scope.projects = projects;
 
