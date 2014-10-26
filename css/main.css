@@ -4,6 +4,19 @@ body {
 	font-family:"Fanwood Text", "Times New Roman", serif;
 }
 
+.header {
+	margin-bottom: 0;
+}
+
+.intro {
+	padding: 100px 0;
+	margin-bottom: 0;
+}
+
+.marketing {
+	margin-top: 0px;
+}
+
 .project-thumb {
     cursor: pointer;
 	color: #777;
