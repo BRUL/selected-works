@@ -1,20 +1,21 @@
 <div class="container">
   <div class="header">
     <h1 class="text-muted"><a href="#">Jonathan Dequeker</a></h1>
+
     <p class="lead intro">
-      I am a Flemish (Belgian) student <strong>Interior Architecture</strong>. <br>Before studying I enjoyed creating Art for four years.
+      I am a Flemish (Belgian) student <strong>Interior Architecture</strong>. <br>Before studying I enjoyed creating
+      Art for four years.
       Along the way I taught myself the arts of <em>bookbinding</em>, <em>programming</em> and <em>woodworking</em>.
     </p>
   </div>
-  
-  <div class="current-project">
+
+  <div class="current-project" ng-show="currentProject">
     <div class="row">
-      <div class="col-lg-4">
-      <h2 ng-bind-html="currentProject.title"></h2>
-      </div>
-      <div class="col-lg-8">
-      <p ng-bind-html="currentProject.intro"></p>
-	  <p ng-bind-html="currentProject.description"></p>
+      <div class="col-lg-12 content">
+        <h2 ng-bind-html="currentProject.title"></h2>
+        <hr>
+        <p ng-bind-html="currentProject.intro"></p>
+        <p ng-bind-html="currentProject.description"></p>
       </div>
     </div>
     <div class="row" ng-show="currentProject.pictures">
@@ -25,18 +26,23 @@
   </div>
 
   <div class="row marketing">
-    <a class="col-lg-6 project-thumb" ng-repeat="(projectId, project) in projects" ng-show="$even" href="#{{projectId}}">
+    <a class="col-lg-6 project-thumb" ng-repeat="(projectId, project) in projects" ng-show="$even"
+       href="#{{projectId}}">
       <h2 ng-bind-html="project.title"></h2>
+
       <p ng-bind-html="project.intro"></p>
     </a>
 
     <a class="col-lg-6 project-thumb" ng-repeat="(projectId, project) in projects" ng-show="$odd" href="#{{projectId}}">
       <h2 ng-bind-html="project.title"></h2>
+
       <p ng-bind-html="project.intro"></p>
     </a>
   </div>
 
   <div class="footer">
-	<p>&copy; <a href="mailto:jonathan.dequeker@gmail.com">Jonathan Dequeker</a> selected works 2011-2014; made possible by <a href="http://newfront.eu/">New&nbsp;Front</a></p>
+    <p>
+      <a href="mailto:jonathan.dequeker@gmail.com" target="_blank">Jonathan Dequeker</a> selected works 2011-2014; made possible
+      by <a href="http://newfront.eu/" target="_blank">New&nbsp;Front</a></p>
   </div>
 </div> <!-- /container -->
