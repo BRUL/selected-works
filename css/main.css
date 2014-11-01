@@ -1,26 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
+
+body {
+	font-family:"Fanwood Text", "Times New Roman", serif;
+}
+
+.header {
+	margin-bottom: 0;
+}
+
+.intro {
+	padding: 100px 0;
+	margin-bottom: 0;
+}
+
+.marketing {
+	margin-top: 0px;
+}
+
 .project-thumb {
     cursor: pointer;
+	color: #777;
+}
+.project-thumb:hover {
+	color: #000;
+}
+.project-thumb h2 {
+	font-size: 1.5em;
+}
+.project-thumb p {
+	margin-bottom:1.5em;
+	font-size:1em;
+	line-height:1.5em
 }
 
-.current-project {
-    min-height: 600px;
+.header {
+	border: none;
+}
+.header h1 a {
+	color: #777;
+	text-decoration: none;
+}
+.header h1 {
+	padding-bottom: 0;
 }
 
-.carousel {
-    min-height: 500px;
+.current-project p {
+	margin: 1.5em 0;
+	font-size:1em;
+	line-height:1.5em
+	
+	padding: 1em 0;
+	-moz-font-feature-settings:"liga=1, dlig=1";
+	-ms-font-feature-settings:"liga", "dlig";
+	-o-font-feature-settings:"liga", "dlig";
+	-webkit-font-feature-settings:"liga", "dlig";
+	font-feature-settings:"liga", "dlig";
+	-webkit-hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	hyphens:auto
+}
+.current-project img {
+	width: 100%;
+	margin: 2em 0;
 }
 
-.carousel-control, .carousel-control:hover,
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
+.footer {
+	text-align: center;
+	font-size: 1em;
+	color: #777;
+	border: none;
 }
-
-.carousel-control.left,
-.carousel-control.right {
-    cursor: pointer;
-}
-
-.carousel-control.left .glyphicon,
-.carousel-control.right .glyphicon {
-    display: none;
-}
+	
