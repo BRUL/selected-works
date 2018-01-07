@@ -63,7 +63,7 @@ angular.module('sw')
     },
     'on-food': {
       title: 'On Food',
-      intro: 'Based on the upcoming concept of Soylent, I explored a post-food future. The answer is a complex of restaurants and kitchens for respectively avant-garde dining and experimental cooking.',
+      intro: 'Based on the upcoming concept of Soylent, I explored a post-hunger future. The answer is a complex of restaurants and kitchens for respectively avant-garde dining and experimental cooking.',
       description: '<a href="http://www.de-shop.be">The Shop</a> is a historical site in a former harbor area of Antwerp. It was built to assign labor to harbor workers. After decades of dilapidation, only the bare structure and the facade are left. Based on the upcoming concept of <a href="http://www.soylent.me">Soylent</a>, I explored a post-food future. The answer is a complex of restaurants and kitchens for respectively avant-garde dining and experimental cooking. Central is a immense open space. To break this into separate environments, parallel walls of brick are placed in a staggered composition with kitchens in between. Above each kitchen is a restaurant, each with its own stairs.',
       pictures: [
         {
